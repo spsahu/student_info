@@ -52,4 +52,5 @@ public class StudentController {
         }
         return ResponseEntity.badRequest().body("Data not updated !!");
     }
+
 }
