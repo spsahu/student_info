@@ -7,6 +7,7 @@ public class StudentDto {
     private Integer sId;
     private String studentName;
     private List<CourseDto> course;
+    private List<AddressDto> addressDto;
 
     public Integer getsId() {
         return sId;
@@ -32,12 +33,21 @@ public class StudentDto {
         this.course = course;
     }
 
+    public List<AddressDto> getAddressDto() {
+        return addressDto;
+    }
+
+    public void setAddressDto(List<AddressDto> addressDto) {
+        this.addressDto = addressDto;
+    }
+
     @Override
     public String toString() {
         return "StudentDto{" +
                 "sId=" + sId +
                 ", studentName='" + studentName + '\'' +
                 ", course=" + course +
+                ", addressDto=" + addressDto +
                 '}';
     }
 }
