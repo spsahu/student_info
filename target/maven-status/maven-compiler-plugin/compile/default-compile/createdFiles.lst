@@ -1,0 +1,10 @@
+com\example\student_info_app\student_info_system\Controller\StudentController.class
+com\example\student_info_app\student_info_system\model\StudentDto.class
+com\example\student_info_app\student_info_system\entity\StudentEntity.class
+com\example\student_info_app\student_info_system\StudentInfoSystemApplication.class
+com\example\student_info_app\student_info_system\model\CourseDto.class
+com\example\student_info_app\student_info_system\service\StudentServiceI.class
+com\example\student_info_app\student_info_system\entity\CourseEntity.class
+com\example\student_info_app\student_info_system\repository\CourseRepo.class
+com\example\student_info_app\student_info_system\repository\StudentRepo.class
+com\example\student_info_app\student_info_system\service\impl\StudentServiceImpl.class
